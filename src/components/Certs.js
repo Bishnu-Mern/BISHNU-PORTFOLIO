@@ -2,13 +2,12 @@ import CertCard from "./CertCard.js"
 
 import hr from "../assets/curve-hr.svg"
 import mtcna from "../assets/certs/mtcna.jpg"
-import adinusa from "../assets/certs/adinusa.png"
-import dicodingAws from "../assets/certs/dicoding-aws.png"
-import dicodingJs from "../assets/certs/dicoding-js.png"
-import dicodingNetwork from "../assets/certs/dicoding-network.png"
-import progateHtml from "../assets/certs/progate-htmlcss.png"
+import adinusa from "../assets/certs/cert1.jpeg"
+import dicodingAws from "../assets/certs/cert2.webp"
+import dicodingJs from "../assets/certs/cert3.avif"
+import dicodingNetwork from "../assets/certs/cert4.png"
+import progateHtml from "../assets/certs/cert5.jpeg"
 import progateJs from "../assets/certs/progate-js.png"
-import fccResponsive from "../assets/certs/fcc-responsive.png"
 
 // import 
 
@@ -25,7 +24,6 @@ export default function Certs(){
                 <CertCard name="Cloud Practitioner Essentials" img={dicodingAws} issued="Dicoding Indonesia" date="Feb 2022" />
                 <CertCard name="Dasar Pemprograman Javascript" img={dicodingJs} issued="Dicodig Indonesia" date="Mei 2021" />
                 <CertCard name="Jaringan Komputer untuk Pemula" img={dicodingNetwork} issued="Dicodig Indonesia" date="Jan 2023" />
-                <CertCard name="Responsive Web Design " img={fccResponsive} issued="Dicodig Indonesia" date="Dec 21" />
                 <CertCard name="Kursus Javascript" img={progateJs} issued="Progate" date="Oct 2020" />
                 <CertCard name="Kursus HTML & CSS" img={progateHtml} issued="Progate" date="Oct 2020" />
 
