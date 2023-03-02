@@ -30,21 +30,21 @@ export default function Skills() {
 
       <div className="mt-4">
         <Slider {...settings}>
-          <SkillCard name="python" experience="1 years" img={python} />
+          <SkillCard name="Python" experience="1 years" img={python} />
           <SkillCard
-            name="javascript"
+            name="Javascript"
             experience="2.7 years"
             img={javascript}
           />
-          <SkillCard name="react" experience="2 years" img={reactIcon} />
-          <SkillCard name="tailwind" experience="1 years" img={tailwind} />
-          <SkillCard name="angular" experience="2 years" img={angular} />
-          <SkillCard name="windows" experience="4 years" img={windows} />
+          <SkillCard name="React" experience="2 years" img={reactIcon} />
+          <SkillCard name="Tailwind" experience="1 years" img={tailwind} />
+          <SkillCard name="Angular" experience="2 years" img={angular} />
+          <SkillCard name="Windows" experience="4 years" img={windows} />
 
-          <SkillCard name="docker" experience="1 years" img={docker} />
-          <SkillCard name="git" experience="3 years" img={git} />
-          <SkillCard name="express" experience="1 years" img={express} />
-          <SkillCard name="gitlab" experience="1 years" img={gitlab} />
+          <SkillCard name="Docker" experience="1 years" img={docker} />
+          <SkillCard name="Git" experience="3 years" img={git} />
+          <SkillCard name="Express" experience="1 years" img={express} />
+          <SkillCard name="Gitlab" experience="1 years" img={gitlab} />
         </Slider>
       </div>
       <img src={hr} className="w-full mt-8 md:h-3" alt="hr" />

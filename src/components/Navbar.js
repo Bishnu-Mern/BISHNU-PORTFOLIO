@@ -9,8 +9,8 @@ export default function Navbar(props) {
   const { t, i18n } = useTranslation();
 
   useEffect(() => {
-    handleLangChange({ target: { value: "en" } });
-  }, []);
+    i18n.changeLanguage(currentLang);
+  }, [currentLang,i18n]);
 
   const handleLangChange = (e) => {
     i18n.changeLanguage(e?.target?.value);
