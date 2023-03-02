@@ -1,5 +1,5 @@
 import hr from '../assets/curve-hr.svg'
-import React, { useState } from "react";
+import React from "react";
 import { useTranslation } from "react-i18next";
 
 export default function Footer(){
